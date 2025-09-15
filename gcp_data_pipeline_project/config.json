@@ -1,0 +1,10 @@
+
+{
+    "project": "gcp-data-pipeline",
+    "environment": "production",
+    "input_bucket": "gs://my-input-bucket",
+    "output_bucket": "gs://my-output-bucket",
+    "temp_bucket": "gs://my-temp-bucket",
+    "region": "us-central1",
+    "schedule_interval": "0 6 * * *"
+}
